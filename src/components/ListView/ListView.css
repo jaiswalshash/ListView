@@ -1,0 +1,52 @@
+.ListView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #e6f9ff; */
+  }
+  
+  .ListView input[type='text'] {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .ListView table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .ListView th,
+  .ListView td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .ListView tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .ListView th {
+    background-color: cadetblue;
+    color: white;
+  }
+  
+  .heading {
+    background-color: #e6f9ff;;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  *{
+    text-align: center;
+}
+h1{
+    color: rgb(47, 131, 132);
+}
